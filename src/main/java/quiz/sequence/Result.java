@@ -1,4 +1,4 @@
-package quiz;
+package quiz.sequence;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

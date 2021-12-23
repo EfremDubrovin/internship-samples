@@ -1,4 +1,4 @@
-package quiz;
+package quiz.sequence;
 
 /**
  * Given an array of integers, find the sequence and the sub-array with the highest sum
