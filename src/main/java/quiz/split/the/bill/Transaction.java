@@ -6,7 +6,7 @@ import lombok.RequiredArgsConstructor;
 @Getter
 @RequiredArgsConstructor
 public class Transaction {
-    private final Person sender;
-    private final Person receiver;
+    private final String sender;
+    private final String receiver;
     private final Double amount;
 }

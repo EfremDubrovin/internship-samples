@@ -6,7 +6,8 @@ import java.util.Set;
 
 @RequiredArgsConstructor
 public class Bill {
-    private final Person paidBy;
+    private final String name;
+    private final String paidBy;
     private final Double amount;
-    private final Set<Person> paidForPeople;
+    private final Set<String> paidForPeople;
 }
