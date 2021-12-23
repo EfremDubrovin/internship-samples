@@ -1,4 +1,4 @@
-package quiz;
+package quiz.sequence;
 
 import org.junit.jupiter.api.Test;
 import quiz.sequence.Result;

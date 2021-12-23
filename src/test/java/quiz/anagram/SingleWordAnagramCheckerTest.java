@@ -1,4 +1,4 @@
-package quiz;
+package quiz.anagram;
 
 import org.junit.jupiter.api.Test;
 import quiz.anagram.SingleWordAnagramChecker;
