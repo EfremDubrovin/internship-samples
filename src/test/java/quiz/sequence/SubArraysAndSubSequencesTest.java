@@ -1,8 +1,6 @@
 package quiz.sequence;
 
 import org.junit.jupiter.api.Test;
-import quiz.sequence.Result;
-import quiz.sequence.SubArraysAndSubSequences;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.equalTo;

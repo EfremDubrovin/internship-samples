@@ -5,7 +5,7 @@ import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 
 /**
- * @author - Vasil Filipov - Delta Source Bulgaria, vasilfilipov@deltasource.eu, 23/Dec/2021
+ * Enum, holding all possible banknotes available for the {@link  Withdrawal} task
  */
 @RequiredArgsConstructor
 public enum BanknoteEnum {

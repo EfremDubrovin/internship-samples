@@ -1,5 +1,8 @@
 package quiz.withdrawal;
 
+import java.util.Collections;
+import java.util.List;
+
 /**
  * Given an amount of money to be paid and the banknotes ({@link BanknoteEnum})
  * available to pay with, with an infinite supply of every banknote,
@@ -20,7 +23,21 @@ package quiz.withdrawal;
  */
 public class Withdrawal {
 
-    public void withdrawAmount(int amount) {
+    public void printWithdrawalOutcomes(int amount) {
+        printOutcomes(calculateOutcomes(amount));
+    }
+
+    List<WithdrawalOutcome> calculateOutcomes(int amountToBePaid) {
         //TODO: Write your solution here.
+        return Collections.emptyList();
+    }
+
+    private void printOutcomes(List<WithdrawalOutcome> outcomes) {
+        if (outcomes.isEmpty()) {
+            System.out.println("No possible withdrawals? :(");
+        }
+
+        System.out.println("Possible outcomes - " + outcomes.size());
+        outcomes.forEach(WithdrawalOutcome::printPayments);
     }
 }
